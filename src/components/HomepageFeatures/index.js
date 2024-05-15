@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Легкий у використанні',
+    Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Товарчик - це сайт, який пропонує все легко та надійно. Тому замовляй!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Праця для людей',
+    Svg: require('@site/static/img/2.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Наща праця благородна та чесна, тільки найвища якість та крута ціна
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Атмосфера та Затишок',
+    Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Зроби своє житло, щоб був комфорт від одного погляду  
       </>
     ),
   },
@@ -62,3 +59,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
